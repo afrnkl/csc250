@@ -24,7 +24,7 @@ public class BibleBook2_1
 			
 			 for (BibleBook biblebooks : BibleBooksArray) 
 			 {
-		        System.out.println(biblebook.toString());
+		        System.out.println(biblebooks.toString());
 			 }
 		}
 		catch(Exception e)
