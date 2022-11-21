@@ -12,7 +12,7 @@ public class BibleBook2_1
 		ArrayList<BibleBook> BibleBooksArray =  new ArrayList<BibleBook>();
 		try
 		{
-			Scanner sc = new Scanner(new File(System.getProperty("user.dir")+("/src/BibleBooks.dat")));
+			Scanner sc = new Scanner(new File(System.getProperty("user.dir")+("/src/csc250hw/BibleBooks.dat")));
 			
 			while (sc.hasNextLine())
 			{
